@@ -1,0 +1,109 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+/* vertical-centered text */
+.text-vcenter {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	font-family: 'Oswald', sans-serif;
+}
+
+.text-vcenter h1 {
+	font-size: 4.5em;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+}
+
+.pad-section{
+	padding: 50px 0;
+}
+
+
+/* additional sections */
+#home {
+	background: url(images/home.jpg) no-repeat center center fixed;
+	color: white;
+	display: table;
+	height: 100%;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#home a{
+	color:white;
+}
+
+#about{
+	background-color: #222;
+	color: white;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+#services {
+	background-color: #306d9f;
+	color: #ffffff;
+}
+
+#services .mdi {
+	border: 2px solid #FFFFFF;
+	border-radius: 50%;
+	display: inline-block;
+	font-size: 60px;
+	height: 140px;
+	line-height: 140px;
+	text-align: center;
+	vertical-align: middle;
+	width: 140px;
+	color: white;
+}
+
+#information {
+	background: url(images/info.jpg) no-repeat center center fixed;
+	display: table;
+	height: 800px;
+	position: relative;
+	width: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#information .panel {
+	opacity: 0.95;
+}
+
+footer{
+	background-color: #306d9f;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	color: white;
+}
+
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	color: white;
+}
+
+h4, p{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.panel{
+	font-family: 'Open Sans', sans-serif;
+}
