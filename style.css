@@ -12,7 +12,7 @@ html, body{
 }
 
 .text-vcenter h1 {
-	font-size: 4.5em;
+	font-size: 70px;
 	font-weight: 700;
 	margin: 0;
 	padding: 0;
@@ -87,8 +87,8 @@ html, body{
 
 footer{
 	background-color: #306d9f;
-	padding-bottom: 1em;
-	padding-top: 1em;
+	padding-bottom: 1px;
+	padding-top: 1px;
 	color: white;
 }
 
@@ -107,3 +107,4 @@ h4, p{
 .panel{
 	font-family: 'Open Sans', sans-serif;
 }
+
